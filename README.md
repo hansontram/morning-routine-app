@@ -12,8 +12,7 @@ This web application allows users to add activities to their to their morning ro
 
 **Tech used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB.
 
-# Packages/Dependencies used 
-
+**Packages/Dependencies used:**
 bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
 
 ---
