@@ -1,6 +1,6 @@
 # Magic Mornings Checklist App
 
-This web application allows users to add activities to their to their morning routine list, mark them complete, and delete them as they complete the tasks. 
+This web application allows users to add activities to their morning routine checklist, mark them complete, and delete them.
 
 
 <img width="868" alt="Screen Shot 2022-10-15 at 2 24 55 PM" src="https://user-images.githubusercontent.com/97640502/196008761-92a1d903-2113-4704-a808-e60320008318.png">
