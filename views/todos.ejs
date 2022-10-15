@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="container">
+    <div class="title">
+        <h1>Morning Routine</h1>    
+    </div>
+    <div class="instructions">
+        <h3>add activities to your routine <br>click on activity to cross out <br> delete to remove activity</h3>
+    </div>
+</header>
+    <main>
+    <ul>
+    <% todos.forEach( el => { %>
+            <li class='todoItem' data-id='<%=el._id%>'>
+                <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.todo %></span>
+                <span class='del'> Delete </span>
+            </li>
+    <% }) %>    
+    </ul>
+
+    <h2><%= user.userName %> has <%= left %> things left to complete.</h2>
+    </main>
+    <footer> 
+        <form action="/todos/createTodo" method='POST'>
+         <input type="text" placeholder="Enter Activity" name='todoItem'>
+         <input type="submit">
+         </form>
+
+    <a href="/logout">Logout</a>
+</footer>   
+    <script src="js/main.js"></script>
+</body>
+</html>
