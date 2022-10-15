@@ -1,7 +1,5 @@
 # Magic Mornings Checklist App
 
-
-# To Do List App
 This web application allows users to add activities to their to their morning routine list, mark them complete, and delete them as they complete the tasks. 
 
 
