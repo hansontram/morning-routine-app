@@ -1,24 +1,16 @@
-# Introduction
+# Magic Mornings Checklist App
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
 
----
+# To Do List App
+This web application allows users to add activities to their to their morning routine list, mark them complete, and delete them as they complete the tasks. 
 
-> Be sure to add that lovely star 😀 and fork it for your own copy
 
----
+<img width="868" alt="Screen Shot 2022-10-15 at 2 24 55 PM" src="https://user-images.githubusercontent.com/97640502/196008761-92a1d903-2113-4704-a808-e60320008318.png">
 
-# Objectives
 
-- It's a beginner level app created to understand how MVC concept and logins are added
+## How It's Made:
 
----
-
-# Who is this for? 
-
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
-
----
+**Tech used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB.
 
 # Packages/Dependencies used 
 
@@ -26,21 +18,9 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 ---
 
-# Install all the dependencies or node packages used for development via Terminal
+## Lessons Learned:
 
-`npm install` 
-
----
-
-# Things to add
-
-- Create a `.env` file and add the following as `key: value` 
-  - PORT: 2121 (can be any port example: 3000) 
-  - DB_STRING: `your database URI` 
- ---
- 
- Have fun testing and improving it! 😎
+Succesfully displayed a websites CRUD capabilities to create, read, update, and delete by sending post, get, put, and delete requests to the MongoDB server. The app was built using the MVC architecture and succesfully impemented "authorization" so folks can sign up, customize, and personalize the app. 
 
 
-# morning-routine-app
-# morning-routine-app
+
